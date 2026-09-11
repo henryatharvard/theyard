@@ -86,6 +86,22 @@ The founder brings Harvard/MIT education, a PhD, AI and industry experience, and
 
 Potential defensible assets would be an effective instructional method, trusted mentor relationships, a dependable delivery workflow, and permissioned examples connecting expert feedback with later independent performance. Evidence quality, lawful permission, usefulness, and demonstrated performance determine whether these assets have value.
 
+## The first-community problem
+
+The Yard needs both a useful learning product and the ability to convene people worth learning with. An established institution can attract participants through accumulated reputation; The Yard must earn its own initial trust and cannot assume university affiliation.
+
+Proposed sequence:
+
+1. **Commit the initial supply.** A founder-led studio with a small teaching team and clearly scoped specialist sessions. Secure those commitments before selling the offer.
+2. **Recruit a concentrated first cohort.** Invite families through direct relationships around one subject, age range, and workable schedule. The program must deliver value with only this cohort; it cannot depend on a populated marketplace or social feed.
+3. **Create reasons to return.** Shared work, critique, recurring peer contact, and a second project that students want to pursue. Observe actual repeat enrollment and engagement.
+4. **Turn quality into reputation.** With permission, show artifacts, revisions, and explanations. Measure qualified referrals and mentors willing to return, not only impressions or audience size.
+5. **Test transfer beyond the founder.** Run a later cohort with another trained lead mentor and compare demand, learning, and retention. Dependence on the founder's personal time would constrain the venture model.
+
+A potential network effect would mean additional suitable participants improve matching, peer learning, mentor participation, or opportunities for existing participants. That effect has not been established. Brand, referrals, network effects, and a software moat are related but distinct assets.
+
+The operational lesson from early focused networks is to create density in a narrow community before expanding. Paul Graham discusses manual recruitment and Facebook's initial Harvard focus in “Do Things that Don't Scale”: https://paulgraham.com/ds.html. This informs a proposed launch strategy; it is not evidence that The Yard will follow the same trajectory.
+
 ## What must be validated
 
 1. **Demand:** paid commitments, attendance, reasons for purchase, refund requests, repeat enrollment, and acquisition cost.
