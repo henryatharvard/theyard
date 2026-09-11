@@ -1,35 +1,28 @@
-# A nursery for the mind
+# The Yard
 
-A landing-page and naming exploration for an independent education venture. The Yard is the default working name; the shortlist also includes The Grove, The Commons, Longview, Openfield, and Wonder & Work.
+An early-stage education venture exploring AI-assisted expert mentorship for young learners.
 
-Live site: https://henryatharvard.github.io/theyard/
+- Product and venture page: https://henryatharvard.github.io/theyard/
+- Venture brief: [venture-brief.md](venture-brief.md)
+- Original campus/brand concept: https://henryatharvard.github.io/theyard/vision.html
+- Naming comparison: https://henryatharvard.github.io/theyard/names.html
 
-Brand comparison: https://henryatharvard.github.io/theyard/names.html
+## Product prototype
 
-Open `names.html` to compare all six names in the design. Open `index.html` directly for the landing page. It is self-contained: all styling, JavaScript, and both WebP illustrations are embedded. No dependencies, external requests, account, or build step are required.
+The homepage includes three connected local demo views: a student submits practice, a mentor assigns the next task, and a parent sees the activity sequence. There are no accounts, network writes, stored learner records, or live AI. Reset restores the prepared sample.
 
-Optional local preview: `python -m http.server 8766 --bind 127.0.0.1`, then visit `http://localhost:8766/names.html`.
+An interactive pilot model exposes assumptions about cohort size, price, mentor preparation, and delivery costs. Proposed program details, economics, and outcomes are hypotheses. The page does not enroll learners or collect payments.
 
-## Working experience
+## Run
 
-- Illustrated campus with three clickable spaces and accessible keyboard-operable tabs.
-- The founder story and philosophy of broadening horizons, practice, reflection, and mentorship.
-- Nine prepared first-spark activities spanning reading, observation, and making, with 15-minute, 30-minute, or week-long variants.
-- Downloadable plain-text activities, accessible modal, native FAQ and approach accordions.
-- Responsive phone, tablet, and desktop layouts, reduced-motion support, semantic landmarks, and visible keyboard focus.
+Open `index.html` directly, or run `python -m http.server 8766 --bind 127.0.0.1` and visit `http://localhost:8766/`. Serve the complete repository so the local images and downloadable brief are available. There is no package installation or build step. GitHub Pages publishes `main` from `/`; `.nojekyll` disables Jekyll processing.
 
-## Product status
+## Brand exploration
 
-This is a working concept, not a launched program. The page does not collect data, enroll children, book mentors, or claim an existing cohort. Prepared activities are not live AI output. The founder's background comes from the project brief; universities and employers are not presented as partners.
+`vision.html` preserves the initial illustration-led landing page and its nine downloadable activities. `names.html` previews that concept as The Yard, The Grove, The Commons, Longview, Openfield, or Wonder & Work. These are working names, not cleared brands. Initial research found existing uses of The Yard.
 
-## Brand research
+Original illustrations were generated with the built-in imagegen tool. Assets and prompts are documented in [ARTWORK.md](ARTWORK.md).
 
-These are creative directions, not cleared names. An initial scan found existing uses of The Yard, including https://theyard.com/ and https://theyardscotland.org.uk/. The shortlist has not had domain or trademark clearance. Prior explorations Farther and Asterward were superseded during discussion.
+## Validation
 
-## Artwork
-
-The two illustrations were created with the built-in imagegen tool. Selected assets are in `assets/`, and the original prompts and provenance are in `ARTWORK.md`.
-
-## Verification
-
-Chrome checks cover widths 360, 390, 768, 1024, and 1440; all nine activity combinations and downloads; hotspots and keyboard tab navigation; dialog dismissal and focus return; image loading, local anchor targets, reduced motion, and JavaScript errors. Additional checks verify six naming variants and the comparison interface.
+The initial brand concept was checked in Chrome on phone, tablet, and desktop, including all activities, name variants, and downloads. The revised product page is checked for responsive layout, the student-to-mentor-to-parent workflow, keyboard tab navigation, reset behavior, form validation, and pilot economics calculations. Live publication is checked against committed files and exercised in Chrome.
