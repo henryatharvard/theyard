@@ -26,3 +26,9 @@ Original illustrations were generated with the built-in imagegen tool. Assets an
 ## Validation
 
 The initial brand concept was checked in Chrome on phone, tablet, and desktop, including all activities, name variants, and downloads. The revised product page is checked for responsive layout, the student-to-mentor-to-parent workflow, keyboard tab navigation, reset behavior, form validation, and pilot economics calculations. Live publication is checked against committed files and exercised in Chrome.
+
+## Homepage identity and sharing preview
+
+The homepage uses crimson, red brick, warm ivory, and serif display headings. `assets/crimson.css` controls the brand styling; the local campus illustration appears in the hero and founder section.
+
+The static HTML head contains the canonical URL, Open Graph metadata, and a large-image social card. The preview is `assets/the-yard-social-crimson-v1.jpg`, a 1200 × 630 JPEG under 200 KB. Metadata follows the [Open Graph protocol](https://ogp.me/), including image dimensions, MIME type, and alt text. No JavaScript is needed for preview discovery. When replacing the card, use a new versioned filename and update both the Open Graph and Twitter image URLs. Preview caches are controlled by the sharing app; previously sent messages may retain their earlier preview.

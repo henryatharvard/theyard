@@ -1,0 +1,61 @@
+/* Harvard Yard-inspired identity: crimson, red brick, limestone, and warm paper. */
+body { border-top: 5px solid var(--crimson); }
+.brand { color: var(--crimson); }
+.button { background: var(--crimson); border-color: var(--crimson); }
+.button:hover { background: #811629; }
+.button.secondary { color: var(--crimson); border-color: #cbaea0; }
+.button.secondary:hover { background: var(--light); }
+.button.light { background: var(--bg); border-color: var(--bg); color: var(--crimson); }
+.button.light:hover { background: #f0dfd0; }
+h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(50px, 5.1vw, 78px); line-height: 1.04; letter-spacing: -.045em; }
+h1 span { color: var(--crimson); font-style: italic; }
+.hero { padding-top: 52px; }
+.hero-grid { grid-template-columns: 1.45fr 1fr; align-items: center; gap: 48px; }
+.hero-campus { margin: 34px -12px 0; }
+.hero-campus img { display: block; width: 100%; height: auto; max-height: 440px; object-fit: cover; object-position: center 58%; mix-blend-mode: multiply; }
+.hero-campus figcaption { display: flex; justify-content: space-between; gap: 20px; padding: 15px 12px 0; color: #815948; font: italic 15px/1.5 var(--serif); }
+.hero-facts { margin-top: 25px; }
+.section-title h2, .section-heading, .founder-section h2, .cta h2 { font-family: var(--serif); font-weight: 400; letter-spacing: -.035em; }
+.section-title h2, .section-heading { font-size: 46px; }
+.hero-facts span, .hero-facts p, .stage { color: #75665e; }
+.stage:before { background: var(--rust); }
+.app { border-color: #cfb9a9; box-shadow: 0 12px 40px #542b2210; }
+.app-header { background: #f1e5da; border-bottom-color: #dfcabc; }
+.app-name .icon { background: var(--crimson); }
+.role[aria-selected=true] { background: #f2ddd5; border-color: #d6b6a9; color: #871b2c; }
+.role:hover { background: #f4e9df; }
+.role > span, .app-status, .reset, .status-message { color: #8b3c36; }
+.task-map { background: #f3eae0; }
+.cell { background: #e7dcd0; }
+.cell.wall, .map-key i { background: #98867b; }
+.cell.route, .map-key .path { background: #dca08b; }
+.cell.agent { background: #a54b38; }
+.cell.goal { background: #781b2b; }
+.engine { background: #741c2c; }
+.engine .eyebrow, .engine-step .label { color: #eac6b4; }
+.engine .section-title p, .engine-step p, .engine-return, .engine-note { color: #f0d6c8; }
+.engine-grid { border-color: #ae6870; }
+.engine-step:before { background: #e5b98a; }
+.engine-return { border-color: #ae6870; }
+.offer { background: #f3e6da; border-color: #d9bca9; }
+.proof-card { border-top-color: #b66350; }
+.cta { background: #f0dfd1; border-color: #d8b9a4; }
+.founder-art img { object-position: center; }
+@media (max-width: 1100px) {
+  .hero-grid { gap: 30px; }
+  h1 { font-size: 60px; }
+  .section-title h2, .section-heading { font-size: 40px; }
+}
+@media (max-width: 760px) {
+  .hero { padding-top: 35px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+  h1 { font-size: clamp(44px, 10.2vw, 66px); letter-spacing: -.045em; }
+  .hero-campus { margin: 27px -6px 0; }
+  .hero-campus img { height: 245px; object-position: center; }
+  .hero-campus figcaption { display: block; text-align: center; font-size: 13px; padding-top: 12px; }
+  .hero-campus figcaption span { display: block; }
+  .hero-campus figcaption span + span { margin-top: 3px; }
+  .hero-facts { margin-top: 24px; }
+  .section-title h2, .section-heading { font-size: 36px; }
+  .engine-step:nth-child(n+3) { border-top-color: #ae6870; }
+}
